@@ -1,0 +1,32 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Dog dog1 = new Dog();
+		dog1.name="Bubbly";
+		dog1.age=5;
+		dog1.breed="Poodle";
+		dog1.color="White";
+		
+		System.out.println(dog1.name+":"+dog1.age+":"+dog1.breed+":"+dog1.color);
+		
+		dog1.bark();
+		dog1.eat();
+		dog1.wagTail();
+		
+		Dog dog2 = new Dog();
+		dog2.name="Basar";
+		dog2.age=5;
+		dog2.breed="Kangal";
+		dog2.color="Brown";
+		
+		System.out.println(dog2.name+":"+dog2.age+":"+dog2.breed+":"+dog2.color);
+		
+		dog2.bark();
+		dog2.eat();
+		dog2.wagTail();
+	}
+	}
+
+}
